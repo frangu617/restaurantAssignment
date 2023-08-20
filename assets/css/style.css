@@ -11,17 +11,19 @@ h2 {
     color: darkred;
 }
 
-h3, 
+h3,
 p,
 li {
     color: green;
-    
+
 
 }
-ul{
-    
-    list-style:none;
+
+ul {
+
+    list-style: none;
 }
+
 img {
     width: 100%;
     height: auto;
@@ -51,10 +53,14 @@ nav a {
     font-size: 1.6em;
     color: green;
     margin-right: 25px;
+
 }
 
-#thisPage{
-    color:gold;
+#thisPage {
+    color: gold;
+    border: 2px solid green;
+    background-color: white;
+    padding: 3px
 }
 
 nav a:hover {
@@ -87,15 +93,20 @@ table {
     border: 3px solid black;
     width: 100%;
 }
-  
+
 td,
 th {
     border: 1px solid black;
     padding: 5px;
 }
-#announcements{
-width: 100%;
-background-color: red;
-color: white;
-font-size: x-large;
+
+#announcements {
+    width: 100%;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+}
+
+p {
+    text-align: left;
 }
